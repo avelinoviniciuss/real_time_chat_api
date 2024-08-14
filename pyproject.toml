@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "real-time-chat-api"
+version = "0.1.0"
+description = "A real time chat API using Flask and Flask-SocketIO"
+authors = ["Vinícius Avelino"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.3"
+flask-socketio = "^5.3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
